@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.cabecalho{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 999;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px -11px 27px 3px rgba(0, 0, 0, 1); 
+}
+.esquerda{
+    display: flex;
+    margin: 10px 50px 0px 50px;
+}
+.menuoculto{
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#ffffff ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -11px 3px 44px -2px rgba(0, 0, 0, 1);
+ }
+ .menuoculto a{
+    margin: 10px;
+    padding: 20px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+    transition: linear 0.4s;
+ }
+ .menuoculto a:hover{
+    color: #000000b9;
+    text-decoration: none;
+    transform: scale(1.1, 1.1);
+ }
+ @media screen and(max-width: 450px) {
+    .menuoculto{
+       padding-top: 15px;
+    }
+    .menuoculto a{
+       font-size: 18px;
+    }
+ }
+.btn-fechar{
+ position: absolute;
+ top: 20px;
+ right: 25px;
+ font-size: 36px;
+ margin-left: 50px;
+ color: rgb(0, 0, 0);
+ }
+ .principal{
+    opacity: 0;
+ }
+ .principal.aparecer{
+    opacity: 1;
+    transition: margin-left 0.5s;
+    margin: 50px 20px 0px 0px;
+ }
+.img-log img{
+   margin: 57px 0px 0px 0px ;
+ }
+ .dropbtn {
+    background-color: #4caf4f00;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 52px 0px 0px 0px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    text-decoration: underline;
+  }
+.centro{
+    margin: 10px 0px 0px 0px;
+}
+.logo {
+    margin: 40px 0px 10px -40px;
+}
+.direita{
+    display: flex;
+    margin: 10px 50px 0px 50px;
+}
+.carrinho_favoritos{
+    margin: 0px 40px 0px 40px;
+}
+.log-lista-carrinho{
+    display: flex;
+    padding: 60px 0px 0px 0px;
+    justify-content: space-between;
+    font-size: 11px;
+    color: rgb(104, 104, 104);
+    }
+    .lista{
+        position: relative;
+
+     }
+     .carrinho{
+        position: relative;
+     }
+     #carrinho{
+        position: absolute;
+        margin: -40px 74px 0px 74px;
+     }
+     #desejos{
+        position: absolute;
+        margin: -40px 30px 0px 30px;
+     }
+     .lista .listadesign{
+       border: none;
+     }
+     .log-lista-carrinho td{
+        height: 40px;
+        font-family: 'Reklame Script, Poppins Semi Bold & Poppins extra Light';
+     }
+    
+  
